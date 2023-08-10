@@ -4,9 +4,9 @@ This article provides a guide on how to execute a pipeline using the RTDIP SDK's
 ## Prerequisites
 This pipeline assumes you have followed the installation instructions as specified in the Getting Started section. In particular ensure you have installed the following:
 
-* RTDIP SDK
+* [RTDIP SDK](../../../../../getting-started/installation.md#installing-the-rtdip-sdk)
 
-* Java
+* [Java](../../../../../getting-started/installation.md#java)
 
 !!! note "RTDIP SDK Installation"
     Ensure you have installed the RTDIP SDK as follows:
