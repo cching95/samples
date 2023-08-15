@@ -30,5 +30,5 @@ Below is an example of how to set up a pipeline to read daily load data from the
 !!! note "Using environments"
     If using an environment, include the following lines at the top of your script to prevent a difference in Python versions in worker and driver:
     ```python
-    --8<-- "https://raw.githubusercontent.com/rodalynbarce/samples/feature/0434/pipelines/deploy/MISO-Daily-Load-Pipeline-Local/pipeline.py::5"
+    --8<-- "https://raw.githubusercontent.com/rodalynbarce/samples/feature/00434/pipelines/deploy/MISO-RTDIP-Pipeline-Local/pipeline.py::5"
     ```
