@@ -1,6 +1,6 @@
 # Interpolation at Time
 
-[Interpolation at Time](../../code-reference/query/interpolation_at_time.md) - works out the linear interpolation at a specific time based on the points before and after. This is achieved by providing the following parameter:
+[Interpolation at Time](../../code-reference/query/interpolation-at-time.md) - works out the linear interpolation at a specific time based on the points before and after. This is achieved by providing the following parameter:
 
 Timestamps - A list of timestamp or timestamps
 
