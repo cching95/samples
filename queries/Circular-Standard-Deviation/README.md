@@ -1,6 +1,6 @@
 # Circular Standard Deviation
 
-[Circular Standard Deviation](../../code-reference/query/circular_standard_deviation.md) - A function that receives a dataframe of raw tag data and computes the circular standard deviation for samples assumed to be in the range, returning the results.
+[Circular Standard Deviation](../../code-reference/query/circular-standard-deviation.md) - A function that receives a dataframe of raw tag data and computes the circular standard deviation for samples assumed to be in the range, returning the results.
 
 ## Prerequisites
 Ensure you have installed the RTDIP SDK as specified in the [Getting Started](../../../getting-started/installation.md#installing-the-rtdip-sdk) section.
