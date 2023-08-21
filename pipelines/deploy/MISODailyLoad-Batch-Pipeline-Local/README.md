@@ -1,5 +1,5 @@
 # MISO Pipeline using RTDIP
-This article provides a guide on how to execute a pipeline using the RTDIP SDK's MISO components. This pipeline was tested on an M2 Macbook Pro using VS Code in a Conda (3.11) environment.
+This article provides a guide on how to execute a MISO pipeline using RTDIP. This pipeline was tested on an M2 Macbook Pro using VS Code in a Conda (3.11) environment.
 
 ## Prerequisites
 This pipeline assumes you have followed the installation instructions as specified in the Getting Started section. In particular ensure you have installed the following:
@@ -22,9 +22,9 @@ This pipeline assumes you have followed the installation instructions as specifi
 |[SparkDeltaDestination](../../../../code-reference/pipelines/destinations/spark/delta.md)|Writes to a Delta table.|
 
 ## Example
-Below is an example of how to set up a pipeline to read daily load data from the MISO API, transform it into the Meters Data Model and write it to a Delta table on your machine.
+Below is an example of how to set up a pipeline to read daily load data from the MISO API, transform it into the Meters Data Model and write it to a Delta table.
 ```python
---8<-- "https://raw.githubusercontent.com/rodalynbarce/samples/feature/00434/pipelines/deploy/MISO-RTDIP-Pipeline-Local/pipeline.py:7:"
+--8<-- "https://raw.githubusercontent.com/rodalynbarce/samples/feature/00434/pipelines/deploy/MISODailyLoad-Batch-Pipeline-Local/pipeline.py:6:"
 ```
 
 !!! note "Using environments"
