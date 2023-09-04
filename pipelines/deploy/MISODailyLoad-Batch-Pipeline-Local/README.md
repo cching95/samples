@@ -24,11 +24,11 @@ This pipeline assumes you have followed the installation instructions as specifi
 ## Example
 Below is an example of how to set up a pipeline to read daily load data from the MISO API, transform it into the Meters Data Model and write it to a Delta table.
 ```python
---8<-- "https://raw.githubusercontent.com/rodalynbarce/samples/feature/00434/pipelines/deploy/MISODailyLoad-Batch-Pipeline-Local/pipeline.py:6:"
+--8<-- "https://raw.githubusercontent.com/rtdip/samples/main/pipelines/deploy/MISODailyLoad-Batch-Pipeline-Local/pipeline.py:6:"
 ```
 
 !!! note "Using environments"
     If using an environment, include the following lines at the top of your script to prevent a difference in Python versions in worker and driver:
     ```python
-    --8<-- "https://raw.githubusercontent.com/rodalynbarce/samples/feature/00434/pipelines/deploy/MISODailyLoad-Batch-Pipeline-Local/pipeline.py::5"
+    --8<-- "https://raw.githubusercontent.com/rtdip/samples/main/pipelines/deploy/MISODailyLoad-Batch-Pipeline-Local/pipeline.py::5"
     ```

@@ -27,17 +27,17 @@ This pipeline assumes you have a Databricks workspace and have followed the inst
 ## Example
 Below is an example of how to set up a pipeline job to read daily load data from the MISO API, transform it into the Meters Data Model and write it to a Delta table.
 ```python
---8<-- "https://raw.githubusercontent.com/rodalynbarce/samples/feature/00434/pipelines/deploy/MISODailyLoad-Batch-Pipeline-Databricks/pipeline.py"
+--8<-- "https://raw.githubusercontent.com/rtdip/samples/main/pipelines/deploy/MISODailyLoad-Batch-Pipeline-Databricks/pipeline.py"
 ```
 
 ## Maintenance
 The RTDIP SDK can be used to maintain Delta tables in Databricks, an example of how to set up a maintenance job to optimize and vacuum the MISO tables written from the previous example is provided below.
 ```python
---8<-- "https://raw.githubusercontent.com/rodalynbarce/samples/feature/00434/pipelines/deploy/MISODailyLoad-Batch-Pipeline-Databricks/maintenance.py"
+--8<-- "https://raw.githubusercontent.com/rtdip/samples/main/pipelines/deploy/MISODailyLoad-Batch-Pipeline-Databricks/maintenance.py"
 ```
 
 ## Deploy
 Deployment to Databricks uses the Databricks [SDK](https://docs.databricks.com/en/dev-tools/sdk-python.html). Users have the option to control the job's configurations including the cluster and schedule.
 ```python
---8<-- "https://raw.githubusercontent.com/rodalynbarce/samples/feature/00434/pipelines/deploy/MISODailyLoad-Batch-Pipeline-Databricks/deploy.py"
+--8<-- "https://raw.githubusercontent.com/rtdip/samples/main/pipelines/deploy/MISODailyLoad-Batch-Pipeline-Databricks/deploy.py"
 ```
