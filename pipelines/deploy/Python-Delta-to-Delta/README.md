@@ -5,14 +5,14 @@ This article provides a guide on how to execute a simple Delta Table copy locall
 ## Prerequisites
 This pipeline job requires the packages:
 
-* [rtdip-sdk](../../../../../getting-started/installation.md#installing-the-rtdip-sdk)
+* [rtdip-sdk](../../../../getting-started/installation.md#installing-the-rtdip-sdk)
 
 
 ## Components
 |Name|Description|
 |---------------------------|----------------------|
-|[PythonDeltaSource](../../../../code-reference/pipelines/sources/python/delta.md)|Reads data from a Delta Table.|
-|[PythonDeltaDestination](../../../../code-reference/pipelines/destinations/python/delta.md)|Writes to a Delta table.|
+|[PythonDeltaSource](../../../code-reference/pipelines/sources/python/delta.md)|Reads data from a Delta Table.|
+|[PythonDeltaDestination](../../../code-reference/pipelines/destinations/python/delta.md)|Writes to a Delta table.|
 
 ## Example
 Below is an example of how to read from and write to Delta Tables locally without the need for Spark
