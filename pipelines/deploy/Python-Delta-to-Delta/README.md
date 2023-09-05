@@ -1,4 +1,4 @@
-# Fledge Pipeline using Dagster
+# Python Delta Local Pipeline
 
 This article provides a guide on how to execute a simple Delta Table copy locally without Spark using the RTDIP SDK. This pipeline was tested on an M2 Macbook Pro using VS Code in a Python (3.10) environment.
 
